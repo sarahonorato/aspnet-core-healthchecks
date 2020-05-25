@@ -1,6 +1,6 @@
 # ASP.NET Core 3.1 Health Checks 
 This is a demo for adding health checks for an API and a database (SQL Server).
-The health check endpoint is created at /health. In this sample, no specific health checks are registered to test any particular dependency or subsystem. If the app is capable of responding at the health endpoint URL, it is healthy.
+The health check endpoint is created at /health. In this sample, no specific health checks are registered, if the app is capable of responding at the health endpoint URL, then it is healthy.
 For the database, the health check is testing the connection.
 And we also can see that is possible to have the body of the response customized!
 
